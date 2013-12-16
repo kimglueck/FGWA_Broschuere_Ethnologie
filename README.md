@@ -15,12 +15,13 @@ Einführende Informationen zu Latex und GitHub:
 * [Was ist GitHub?](http://t3n.de/news/eigentlich-github-472886/)
 * [Wieso verwenden wir GitHub wenn wir doch gar keine Software entwickeln?](http://www.schlosser.info/git-latex-versionieren/)
 
-### Anwendung
+### Voraussetzungen
 Um Änderungen am Inhalt der Broschüre durchzuführen und um daraus ein PDF zu erzeugen müssen zuerst folgende Vorbereitungen getroffen werden.
 
 1. Installation einer LaTeX Umgebung
-2. Installation eines Text Editors (optional, aber empfohlen)
-3. Installation der GitHub Software (optional, aber empfohlen)
+2. Installation eines Text Editors 
+3. Installation eines PDF Reader
+4. Installation der GitHub Software
 
 #### LaTeX Installation
 LaTeX ist *freie Software* und kann für alle gängigen Computerplattformen wie *Windows*, *Linux* und *Mac* kostenlos aus dem Internet bezogen werden.
@@ -52,7 +53,7 @@ Nun wird die Installation vollautomatisch durchgeführt. Sobald die Installation
 
 Nun wird die Installation vollautomatisch durchgeführt. Sobald die Installation abgeschlossen ist, wird dies in der Konsole angezeigt.
 
-#### Text Editor 
+#### Text Editor Installation
 
 Als Text Editor wird [Sublime Text 3](http://www.sublimetext.com/3) empfohlen. Das Programm kann von der Webseite des Herstellers heruntergeladen werden. **Sublime Text 3** ist für alle gängigen Betriebsysteme erhältlich. Die Webseite des Hersteller erkennt automatisch, welches Betriebsystem Sie aktuell verwenden und hilft Ihnen mit einem ausgefüllten, schwarzen Punkt bei der Auswahl der richtigen Version (siehe Beispielgrafik für Windows 8).
 
@@ -68,8 +69,47 @@ Nachdem der Befehl erfolgreich ausgeführt wurde, starten Sie Sublime Text neu.
 
 Nun öffnen Sie die Kommando Palette, entweder mit Hilfe der Tastenkombination `Strg + Shift + P` oder über den Menüpunkt `Tools > Command Palette`. Wählen Sie in diesem Dialog den Punkt `Package Controll: Install Package` und in der darauf folgenden Liste `LaTeXTools` aus und bestätigen Sie Ihre Auswahl jeweils mit der Enter-Taste.
 
-Zum Abschluss Laden Sie folgende Konfigurationsdateien herunter
+Zum Abschluss Laden Sie folgende Konfigurationsdateien auf Ihre Festplatte herunter:
 
+* [LaTeX.sublime-build](https://gist.github.com/oliverh855/1ba49d75f2b4e21246b3/raw/b6c6e0405340e272e56c5a8882f2f0b9a925aaab/LaTeX.sublime-build)
+* [Preferences.sublime-settings](https://gist.github.com/oliverh855/1ba49d75f2b4e21246b3/raw/35fe6df31ec1914b9f75173a8cee5ec08a536ff2/Preferences.sublime-settings)
+
+Mit dem Menüpunkt `Preferences > Browse Packages...` öffnen Sie den Konfigurationsordner. Kopieren Sie nun die beiden oben genannten Konfigurationsdateien in den Ordner `User`.
+
+Somit ist die Installation von Sublime Text 3 abgeschlossen und Sie können das Programm nun nutzen, um automatisch PDF Dateien aus Ihrem LaTeX Text zu erzeugen.
+
+#### GitHub Software Installation
+
+Für Windows und Mac steht ein Programm bereit, dass die Arbeit mit GitHub sehr komfortabel macht. Beide Versionen stehen kostenfrei zum Download bereit und lassen sich sehr einfach installieren.
+
+Während der ersten Ausführung des Programms wird man dazu aufgefordert ein bestehendes GitHub Benutzerkonto anzugeben oder ein neues zu registrieren. Hierbei entstehen keine Kosten.
+
+* [GitHub Windows.](http://windows.github.com/)
+* [GitHub Mac](http://mac.github.com/)
+
+#### PDF Reader Installation
+
+Adobe Reader ist für viele der standard PDF Reader. Im Schreibprozess mit LaTeX ist er jedoch nicht die passende Wahl. Deshalb stellen wir jedes Betriebssystem einen kleinen und schnellen PDF Reader vor und setzen in folgenden Abschnitten voraus, dass diese erfolgreich auf ihrem Computer installiert wurden.
+
+Alle PDF Reader stehen kostenlose zum Download auf den Webseiten der Hersteller bereit.
+
+##### Windows
+
+[Sumatra PDF](http://blog.kowalczyk.info/software/sumatrapdf/)
+
+##### Mac
+
+[Skim](http://skim-app.sourceforge.net/)
+
+##### Linux
+
+[Evince](https://projects.gnome.org/evince/)
+
+### Anwendung
+
+*In diesem Punkt setzen wir voraus, dass Sie alle Schritte des Punkts Voraussetzungen erfolgreich ausgeführt und bereits ein Benutzerkonto bei GitHub registriert haben.*
+
+Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichkeiten. Im Folgenden werden wir eine Methode beschreiben, die eine kontinuierliche und verteile Arbeitsweise erlaubt.
 
 ### Lizenz 
 ![cc-by-sa](http://i.creativecommons.org/l/by-sa/4.0/80x15.png)
