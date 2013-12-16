@@ -45,15 +45,30 @@ Nun wird die Installation vollautomatisch durchgeführt. Schalten Sie in der Zwi
 
 Nun wird die Installation vollautomatisch durchgeführt. Sobald die Installation abgeschlossen ist, wird dies durch ein Dialogfenster angezeigt.
 
-#### Text Editor
+##### Ubuntu Linux
 
-Als Text Editor wird [Sublime Text 3](http://www.sublimetext.com/3) empfohlen. Das Programm kann von der Webseite des Herstellers heruntergeladen werden. Die richtige Version wird hierbei durch einen ausgefüllten, schwarten Punkt angezeigt (siehe Beispielgrafik für Windows 8).
+1. Starten Sie eine Konsole
+2. Führen Sie in der Konsole den folgenden Befehl aus `sudo apt-get install texlive-full`
 
-Nachdem der Download abgeschlossen ist, führen Sie die Installation durch und starten Sie danach das Programm **Sublime Text 3**.
+Nun wird die Installation vollautomatisch durchgeführt. Sobald die Installation abgeschlossen ist, wird dies in der Konsole angezeigt.
 
-Markieren Sie nun vollständig den folgenden Text und kopieren Sie ihn in die Zwischenablage.
+#### Text Editor 
+
+Als Text Editor wird [Sublime Text 3](http://www.sublimetext.com/3) empfohlen. Das Programm kann von der Webseite des Herstellers heruntergeladen werden. **Sublime Text 3** ist für alle gängigen Betriebsysteme erhältlich. Die Webseite des Hersteller erkennt automatisch, welches Betriebsystem Sie aktuell verwenden und hilft Ihnen mit einem ausgefüllten, schwarzen Punkt bei der Auswahl der richtigen Version (siehe Beispielgrafik für Windows 8).
+
+Nachdem der Download abgeschlossen ist, führen Sie die Installation durch.
+
+Markieren Sie nun den folgenden Text vollständig und kopieren Sie ihn in Ihre Zwischenablage (Tastenkombination `Strg + c`).
 
     import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+
+Starten Sie nun das Programm Sublime Text 3. Dort klicken Sie in der Menüzeile auf `View` und danach `Show Console`. Im unteren Bereich des Sublime Text 3 Fensters erscheint nun ein schmales Textfeld, in das Sie den vorher kopierten Text einfügen (Tastenkombination `Strg + v`). Bestätigen Sie die Eingabe mit der Enter-Taste.
+
+Nachdem der Befehl erfolgreich ausgeführt wurde, starten Sie Sublime Text neu.
+
+Nun öffnen Sie die Kommando Palette, entweder mit Hilfe der Tastenkombination `Strg + Shift + P` oder über den Menüpunkt `Tools > Command Palette`. Wählen Sie in diesem Dialog den Punkt `Package Controll: Install Package` und in der darauf folgenden Liste `LaTeXTools` aus und bestätigen Sie Ihre Auswahl jeweils mit der Enter-Taste.
+
+Zum Abschluss Laden Sie folgende Konfigurationsdateien herunter
 
 
 ### Lizenz 
