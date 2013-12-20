@@ -10,7 +10,8 @@ Die vorliegende Broschüre sammelt diese formalen Richtlinien und stellt sie dem
 ### Hinweis
 Die Broschüre wurde mit dem Textsatzsystem _Latex_ erstellt. Änderungen des Materials können mit Hilfe dieses GitHub Repositorys nachvollzogen werden. 
 
-Einführende Informationen zu Latex und GitHub:
+**Einführende Informationen zu Latex und GitHub:**
+
 * [Was ist LaTeX?](https://de.wikipedia.org/wiki/LaTeX)
 * [Was ist GitHub?](http://t3n.de/news/eigentlich-github-472886/)
 * [Wieso verwenden wir GitHub wenn wir doch gar keine Software entwickeln?](http://www.schlosser.info/git-latex-versionieren/)
