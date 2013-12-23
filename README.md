@@ -62,7 +62,7 @@ Nachdem der Download abgeschlossen ist, führen Sie die Installation durch.
 
 Markieren Sie nun den folgenden Text vollständig und kopieren Sie ihn in Ihre Zwischenablage (Tastenkombination `Strg + c`).
 
-    import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+> import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 
 Starten Sie nun das Programm Sublime Text 3. Dort klicken Sie in der Menüzeile auf `View` und danach `Show Console`. Im unteren Bereich des Sublime Text 3 Fensters erscheint nun ein schmales Textfeld, in das Sie den vorher kopierten Text einfügen (Tastenkombination `Strg + v`). Bestätigen Sie die Eingabe mit der Enter-Taste.
 
