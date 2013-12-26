@@ -112,6 +112,14 @@ Alle PDF Reader stehen kostenlose zum Download auf den Webseiten der Hersteller 
 
 Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichkeiten. Im Folgenden werden wir eine Methode beschreiben, die eine kontinuierliche und verteile Arbeitsweise erlaubt.
 
+#### Forken
+#### Clonen
+#### Bearbeiten
+#### Commiten
+#### Pushen
+#### Pull Request erstellen
+#### Pull Request mergen
+
 ### Lizenz 
 ![cc-by-sa](http://i.creativecommons.org/l/by-sa/4.0/80x15.png)
 
