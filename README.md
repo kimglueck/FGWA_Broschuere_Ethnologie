@@ -112,13 +112,22 @@ Alle PDF Reader stehen kostenlose zum Download auf den Webseiten der Hersteller 
 
 Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichkeiten. Im Folgenden werden wir eine Methode beschreiben, die eine kontinuierliche und verteile Arbeitsweise erlaubt.
 
-#### Forken
-#### Clonen
-#### Bearbeiten
-#### Commiten
-#### Pushen
-#### Pull Request erstellen
-#### Pull Request mergen
+1. Forken
+
+Um die Arbeit an einem Projektverzeichnis zu starten ist das *Forken* in der Regel der erste Arbeitsschritt. Dadurch wird eine eigene Arbeitskopie erstellt, die man bearbeiten, speichern und veröffentlichen kann.
+
+Der erste Schritt, um dieses Projekt zu bearbeiten, ist das *forken*. Dadruch wird eine eigene Kopie auf Github erstellt, die man bearbeiten kann. Die ist notwendig, da nur Projektinhaber und enge Vertraut, sogenannte *Collaborators* schreibrechte auf das ursprüngliche Projektverzeichnis haben. Sollten Sie Projektinhaber oder Collaborator sein, können sie diesen Schritt überspringen.
+
+Um dieses Projekt zu forken, klicken Sie im oberen Bereich der Projektseite den Button *Fork*. ![Fork Buttons](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)
+
+Jetzt wird automatisch eine Kopie für Sie erstellt. 
+
+2. Clonen
+3. Bearbeiten
+4. Commiten
+5. Pushen
+6. Pull Request erstellen
+7. Pull Request mergen
 
 ### Lizenz 
 ![cc-by-sa](http://i.creativecommons.org/l/by-sa/4.0/80x15.png)
