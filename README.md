@@ -108,26 +108,49 @@ Alle PDF Reader stehen kostenlose zum Download auf den Webseiten der Hersteller 
 
 ### Anwendung
 
-*In diesem Punkt setzen wir voraus, dass Sie alle Schritte des Punkts Voraussetzungen erfolgreich ausgeführt und bereits ein Benutzerkonto bei GitHub registriert haben.*
+*In diesem Punkt setzen wir voraus, dass Sie alle Schritte des Punkts Voraussetzungen erfolgreich ausgeführt, bereits ein Benutzerkonto bei GitHub registriert und angemeldet sind.*
 
-Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichkeiten. Im Folgenden werden wir eine Methode beschreiben, die eine kontinuierliche und verteile Arbeitsweise erlaubt.
+Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichkeiten. Im Folgenden werden wir eine Arbeitsschritte beschreiben, die eine kontinuierliche, nachvollziehbare und verteile Arbeitsweise erlauben.
 
 1. Forken
 
-Um die Arbeit an einem Projektverzeichnis zu starten ist das *Forken* in der Regel der erste Arbeitsschritt. Dadurch wird eine eigene Arbeitskopie erstellt, die man bearbeiten, speichern und veröffentlichen kann.
+*Sollten Sie Inhaber des Projektverzeichnisses sein, können Sie diesen Schritt überspringen.*
 
-Der erste Schritt, um dieses Projekt zu bearbeiten, ist das *forken*. Dadruch wird eine eigene Kopie auf Github erstellt, die man bearbeiten kann. Die ist notwendig, da nur Projektinhaber und enge Vertraut, sogenannte *Collaborators* schreibrechte auf das ursprüngliche Projektverzeichnis haben. Sollten Sie Projektinhaber oder Collaborator sein, können sie diesen Schritt überspringen.
+Erstellen Sie Ihre eigene Arbeitskopie auf Github, indem Sie das Projektverzeichnis forken. Klicken Sie hierfür auf den Button *Fork* im oberen rechten Bereich der Projektseite. 
 
-Um dieses Projekt zu forken, klicken Sie im oberen Bereich der Projektseite den Button *Fork*. ![Fork Buttons](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)
+![Fork Buttons](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)
 
-Jetzt wird automatisch eine Kopie für Sie erstellt. 
+Die eigene Arbeitskopie ist notwendig, da nur Projektinhaber und sogenannte *Collaborators* dazu berechtigt sind Änderungen am original Projektverzeichnis einzupflegen. Weitere Personen haben somit die Möglichkeit Änderungen zu veröffentlichen und den Projektinhabern bereitzustellen. 
 
 2. Clonen
+
+Öffnen Sie das Programm *Github for Windows* oder *Github for Mac* und klicken Sie im linken Bereich unter *github* auf ihren Benutzernamen. Im mittleren Bereich werden nun all Ihre vorhanden Repositories angezeigt. Führen Sie den Mauszeiger über Ihre Arbeitskopie von  `FGWA_Broschuere_Ethnologie` und klicken die Schaltfläche *CLONE*.
+
+Daraufhin werden die Materialien des Repositories auf Ihren Computer kopiert.
+
 3. Bearbeiten
+
+Nachdem der Clone-Vorgang abgeschlossen ist, öffnen Sie den Texteditor Sublime Text 3. Über den Menüpunkt `File > Open Folder...` öffnen Sie nun den Ordner `FGWA_Broschuere_Ethnologie`. 
+
+Die Datei `document.tex` ist das Hauptdokument der Broschüre, Änderungen können hier hinzugefügt und gespeichert werden. Mit der Tastenkombination `Strg + b` wird aus den LaTeX Quellen eine neue PDF Datei `document.pdf` erzeugt.
+
 4. Commiten
+
+Wenn Sie Ihre Änderungen abgeschlossen haben, öffnen Sie das Programm Github und wählen sie die lokale Kopie der Broschüre aus. In der oberen linken Ecke sehen Sie nun den Bereich *uncommited changes*. Hier beschreiben Sie in kurzen aber präszisen Worten, welche Änderungen Sie durchgeführt haben und klicken danach zur Bestätigung auf den Haken.
+
+Durch das Commiten erhält man eine Historie der Änderungen und es wird möglich Unterschiede zwischen unterschiedlichen Versionen darzustellen.
+
 5. Pushen
+
+Als *Pushen* wird der Schritt bezeichnet, mit dem die lokale Arbeitskopie mit Github synchronisiert wird. Hierzu klickt man lediglich die Schaltfläche *sync* im oberen rechten Bereich des Github Programms.
+
 6. Pull Request erstellen
+
+Möchte man, dass die eigenen Änderungen in das original Projektverzeichnis übernommen werden, muss man einen *Pull Request* an den Projektinhaber stellen. Dadurch kann dieser alle Änderungen nachvollziehen und entscheiden ob und welche er davon übernehmen möchte.
+
 7. Pull Request mergen
+
+Mit einem *Merge* werden Änderungen in das original Projektverzeichnis übernommen
 
 ### Lizenz 
 ![cc-by-sa](http://i.creativecommons.org/l/by-sa/4.0/80x15.png)
