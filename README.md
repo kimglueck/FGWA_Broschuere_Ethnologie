@@ -124,9 +124,9 @@ Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichke
 
 2. Clonen
 
-  Öffnen Sie das Programm *Github for Windows* oder *Github for Mac* und klicken Sie im linken Bereich unter *github* auf ihren Benutzernamen. Im mittleren Bereich werden nun all Ihre vorhanden Repositories angezeigt. Führen Sie den Mauszeiger über Ihre Arbeitskopie von  `FGWA_Broschuere_Ethnologie` und klicken die Schaltfläche *CLONE*.
+ Öffnen Sie das Programm *Github for Windows* oder *Github for Mac* und klicken Sie im linken Bereich unter *github* auf ihren Benutzernamen. Im mittleren Bereich werden nun all Ihre vorhanden Repositories angezeigt. Führen Sie den Mauszeiger über Ihre Arbeitskopie von  `FGWA_Broschuere_Ethnologie` und klicken die Schaltfläche *CLONE*.
 
-Daraufhin werden die Materialien des Repositories auf Ihren Computer kopiert.
+ Daraufhin werden die Materialien des Repositories auf Ihren Computer kopiert.
 
 3. Bearbeiten
 
