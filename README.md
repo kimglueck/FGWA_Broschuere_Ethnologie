@@ -150,7 +150,7 @@ Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichke
 
 7. Pull Request mergen
 
-  Mit einem *Merge* werden Änderungen in das original Projektverzeichnis übernommen
+  Mit einem *Merge* werden Änderungen in das original Projektverzeichnis übernommen.
 
 ### Lizenz 
 ![cc-by-sa](http://i.creativecommons.org/l/by-sa/4.0/80x15.png)
