@@ -8,7 +8,7 @@ Die Grundlagen dieser Broschüre bildet der Kurs **Wissenschaftliche Arbeitstech
 Die vorliegende Broschüre sammelt diese formalen Richtlinien und stellt sie dem Leser in kompakter Weise zur Verfügung. 
 
 ### Hinweis
-Die Broschüre wurde mit dem Textsatzsystem _Latex_ erstellt. Änderungen des Materials können mit Hilfe dieses GitHub Repositorys nachvollzogen werden. 
+Die Broschüre wurde mit dem Textsatzsystem _LaTeX_ erstellt. Änderungen des Materials können mit Hilfe dieses GitHub Repositorys nachvollzogen werden. 
 
 **Einführende Informationen zu Latex und GitHub:**
 
