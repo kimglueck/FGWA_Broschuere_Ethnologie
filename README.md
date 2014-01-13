@@ -5,10 +5,10 @@ Eine [Broschüre](http://www2.uni-frankfurt.de/45426646/Broschuere-Wissenschaftl
 ### Inhalt
 Die Grundlagen dieser Broschüre bildet der Kurs **Wissenschaftliche Arbeitstechniken**. In diesem werden wissenschaftliche Arbeitstechniken vermittelt und formale Richtlinien festgelegt, die bei der Erstellung von Aufsätzen, Hausarbeiten und Thesenpapieren, am Institut für Ethnologie, einzuhalten sind.
 
-Die vorliegende Broschüre sammelt diese formalen Richtlinien und stellt sie dem Leser in kompakter Weise zur Verfügung. 
+Die vorliegende Broschüre sammelt diese formalen Richtlinien und stellt sie dem Leser in kompakter Weise zur Verfügung.
 
 ### Hinweis
-Die Broschüre wurde mit dem Textsatzsystem _LaTeX_ erstellt. Änderungen des Materials können mit Hilfe dieses GitHub Repositorys nachvollzogen werden. 
+Die Broschüre wurde mit dem Textsatzsystem _LaTeX_ erstellt. Änderungen des Materials können mit Hilfe dieses GitHub Repositorys nachvollzogen werden.
 
 **Einführende Informationen zu Latex und GitHub:**
 
@@ -20,7 +20,7 @@ Die Broschüre wurde mit dem Textsatzsystem _LaTeX_ erstellt. Änderungen des Ma
 Um Änderungen am Inhalt der Broschüre durchzuführen und um daraus ein PDF zu erzeugen müssen zuerst folgende Vorbereitungen getroffen werden.
 
 1. Installation einer LaTeX Umgebung
-2. Installation eines Text Editors 
+2. Installation eines Text Editors
 3. Installation eines PDF Reader
 4. Installation der GitHub Software
 
@@ -56,7 +56,7 @@ Nun wird die Installation vollautomatisch durchgeführt. Sobald die Installation
 
 #### Text Editor Installation
 
-Als Text Editor wird [Sublime Text 3](http://www.sublimetext.com/3) empfohlen. Das Programm kann von der Webseite des Herstellers heruntergeladen werden. **Sublime Text 3** ist für alle gängigen Betriebsysteme erhältlich. Die Webseite des Hersteller erkennt automatisch, welches Betriebsystem Sie aktuell verwenden und hilft Ihnen mit einem ausgefüllten, schwarzen Punkt bei der Auswahl der richtigen Version (siehe Beispielgrafik für Windows 8).
+Als Text Editor wird [Sublime Text 3](http://www.sublimetext.com/3) empfohlen. Das Programm kann von der Webseite des Herstellers heruntergeladen werden. **Sublime Text 3** ist für alle gängigen Betriebssysteme erhältlich. Die Webseite des Hersteller erkennt automatisch, welches Betriebssystem Sie aktuell verwenden und hilft Ihnen mit einem ausgefüllten, schwarzen Punkt bei der Auswahl der richtigen Version (siehe Beispielgrafik für Windows 8).
 
 Nachdem der Download abgeschlossen ist, führen Sie die Installation durch.
 
@@ -116,11 +116,11 @@ Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichke
 
   *Sollten Sie Inhaber des Projektverzeichnisses sein, können Sie diesen Schritt überspringen.*
 
-  Erstellen Sie Ihre eigene Arbeitskopie auf Github, indem Sie das Projektverzeichnis forken. Klicken Sie hierfür auf   den Button *Fork* im oberen rechten Bereich der Projektseite. 
+  Erstellen Sie Ihre eigene Arbeitskopie auf Github, indem Sie das Projektverzeichnis forken. Klicken Sie hierfür auf   den Button *Fork* im oberen rechten Bereich der Projektseite.
 
   ![Fork Buttons](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)
 
-  Die eigene Arbeitskopie ist notwendig, da nur Projektinhaber und sogenannte *Collaborators* dazu berechtigt sind Änderungen am original Projektverzeichnis einzupflegen. Weitere Personen haben somit die Möglichkeit Änderungen zu veröffentlichen und den Projektinhabern bereitzustellen. 
+  Die eigene Arbeitskopie ist notwendig, da nur Projektinhaber und sogenannte *Collaborators* dazu berechtigt sind Änderungen am original Projektverzeichnis einzupflegen. Weitere Personen haben somit die Möglichkeit Änderungen zu veröffentlichen und den Projektinhabern bereitzustellen.
 
 2. Clonen
 
@@ -130,13 +130,13 @@ Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichke
 
 3. Bearbeiten
 
-  Nachdem der Clone-Vorgang abgeschlossen ist, öffnen Sie den Texteditor Sublime Text 3. Über den Menüpunkt `File > Open Folder...` öffnen Sie nun den Ordner `FGWA_Broschuere_Ethnologie`. 
+  Nachdem der Clone-Vorgang abgeschlossen ist, öffnen Sie den Texteditor Sublime Text 3. Über den Menüpunkt `File > Open Folder...` öffnen Sie nun den Ordner `FGWA_Broschuere_Ethnologie`.
 
   Die Datei `document.tex` ist das Hauptdokument der Broschüre, Änderungen können hier hinzugefügt und gespeichert werden. Mit der Tastenkombination `Strg + b` wird aus den LaTeX Quellen eine neue PDF Datei `document.pdf` erzeugt.
 
 4. Commiten
 
-  Wenn Sie Ihre Änderungen abgeschlossen haben, öffnen Sie das Programm Github und wählen sie die lokale Kopie der Broschüre aus. In der oberen linken Ecke sehen Sie nun den Bereich *uncommited changes*. Hier beschreiben Sie in kurzen aber präszisen Worten, welche Änderungen Sie durchgeführt haben und klicken danach zur Bestätigung auf den Haken.
+  Wenn Sie Ihre Änderungen abgeschlossen haben, öffnen Sie das Programm Github und wählen sie die lokale Kopie der Broschüre aus. In der oberen linken Ecke sehen Sie nun den Bereich *uncommited changes*. Hier beschreiben Sie in kurzen aber präzisen Worten, welche Änderungen Sie durchgeführt haben und klicken danach zur Bestätigung auf den Haken.
 
   Durch das Commiten erhält man eine Historie der Änderungen und es wird möglich Unterschiede zwischen Versionen darzustellen.
 
@@ -152,7 +152,7 @@ Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichke
 
   Mit einem *Merge* werden Änderungen in das original Projektverzeichnis übernommen.
 
-### Lizenz 
+### Lizenz
 ![cc-by-sa](http://i.creativecommons.org/l/by-sa/4.0/80x15.png)
 
 Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser Lizenz zu sehen, besuchen Sie http://creativecommons.org/licenses/by-sa/4.0/deed.de.
