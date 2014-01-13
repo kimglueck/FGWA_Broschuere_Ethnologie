@@ -138,7 +138,7 @@ Um das Material der Broschüre bearbeiten zu können bestehen mehrere Möglichke
 
   Wenn Sie Ihre Änderungen abgeschlossen haben, öffnen Sie das Programm Github und wählen sie die lokale Kopie der Broschüre aus. In der oberen linken Ecke sehen Sie nun den Bereich *uncommited changes*. Hier beschreiben Sie in kurzen aber präszisen Worten, welche Änderungen Sie durchgeführt haben und klicken danach zur Bestätigung auf den Haken.
 
-  Durch das Commiten erhält man eine Historie der Änderungen und es wird möglich Unterschiede zwischen unterschiedlichen Versionen darzustellen.
+  Durch das Commiten erhält man eine Historie der Änderungen und es wird möglich Unterschiede zwischen Versionen darzustellen.
 
 5. Pushen
 
