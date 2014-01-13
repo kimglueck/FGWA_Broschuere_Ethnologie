@@ -92,7 +92,7 @@ Während der ersten Ausführung des Programms wird man dazu aufgefordert ein bes
 
 Adobe Reader ist für viele der standard PDF Reader. Im Schreibprozess mit LaTeX ist er jedoch nicht die passende Wahl. Deshalb stellen wir jedes Betriebssystem einen kleinen und schnellen PDF Reader vor und setzen in folgenden Abschnitten voraus, dass diese erfolgreich auf ihrem Computer installiert wurden.
 
-Alle PDF Reader stehen kostenlose zum Download auf den Webseiten der Hersteller bereit.
+Alle PDF Reader stehen kostenlos zum Download auf den Webseiten der Hersteller bereit.
 
 ##### Windows
 
