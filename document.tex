@@ -6,6 +6,7 @@
                 bibliography=totocnumbered,
                 final,
                 listof=totoc]{scrartcl}
+\usepackage{scrpage2}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{csquotes}
@@ -48,12 +49,9 @@
 \setlist[enumerate]{font=\normalfont,noitemsep}
 \setlist[itemize]{font=\normalfont,noitemsep}
 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\rfoot{\thepage}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+\cfoot{}
+\ofoot{\pagemark}
+\pagestyle{scrheadings}
 
 \begin{document}
 
