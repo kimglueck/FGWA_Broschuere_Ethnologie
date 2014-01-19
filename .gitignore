@@ -244,3 +244,4 @@ pip-log.txt
 *.fdb_latexmk
 *.bcf
 *.run.xml
+document.pdf
